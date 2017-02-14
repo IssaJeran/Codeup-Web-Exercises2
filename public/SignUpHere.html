@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Your New Music Source</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .row.content {height: 1800px}
+    
+    .sidenav {
+      padding-top: 20px;
+      background-color: black;
+      height: 100%;
+    }
+    
+    footer {
+      background-color: blue;
+      color: white;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Jeran's Jams</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="newtestfile.html" onclick="w3_close()" class="w3-padding w3-hide-large">Home</a></li>
+        <li><a href="mostrecent.html" onclick="w3_close()" class="w3-padding">Most Recent</a></li>
+        <li><a href="topsongs.html"onclick="w3_close()" class="w3-padding">Top Songs</a></li>
+        <li><a href="artiststowatch2017.html"onclick="w3_close()" class="w3-padding">Artists to Watch in 2017</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="SignUpHere.html">Sign Up Here</a></p>
+      <p><a href="ContactUs.html">Contact Us</a></p>
+      <p><a href="ArtistSubmissions.html">Artist Submissions</a></p>
+    </div>
+
+      <main class=container>
+
+
+   <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="SignUp">
+    <div class="w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b>Sign Up Here</b></h4>
+      <p>Please sign up for our online community below in order to enhance your experience:</p>
+      <form action="form.asp" target="_blank">
+        <div class="w3-group">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-group">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-group">
+          <label>Password</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="w3-btn-block w3-padding-large w3-black w3-margin-bottom">Sign Up</button>
+      </form>
+        </div>
+    
+
+</html>

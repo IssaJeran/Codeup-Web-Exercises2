@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+
+    <title>Welcome to My Website!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+    .w3-third img:hover{opacity: 1}
+    </style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<main class=container>
+
+<nav class="w3-sidenav w3-white w3-animate-left w3-center w3-text-yellow w3-collapse w3-top" style="z-index:3;width:300px;font-weight:bold" id="mySidenav"><br>
+  <h3 class="w3-padding-64"><b>JERAN<br>SMITH</b></h3>
+  <a href="welcome3.html" onclick="w3_close()" class="w3-padding w3-hide-large">HOME</a>
+  <a href="resume.html" onclick="w3_close()" class="w3-padding">ABOUT ME/RESUME</a> 
+  <a href="portfolio.html" onclick="w3_close()" class="w3-padding">PORTFOLIO</a>
+  <a href="contact.html" onclick="w3_close()" class="w3-padding">CONTACT</a>
+</nav>
+
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Jeran Smith: The Solution for Your Music Needs</span>
+  <a href="javascript:void(0)" class="w3-right w3-btn w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:300px">
+
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  
+  
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="file:///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/rome-fortune.jpg"  style="width:750px" onclick="onClick(this)" alt="Rome Fortune">
+      <img src="file:///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/JazzCartier.jpg" style="width:750px" onclick="onClick(this)" alt="Jazz Cartier">
+      <img src="file:///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/NOBU.png" style="width:750px" onclick="onClick(this)" alt="NOBU">
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="file:///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/rome-fortune.jpg"  style="width:750px" onclick="onClick(this)" alt="Rome Fortune">
+      <img src="file:///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/JazzCartier.jpg" style="width:750px" onclick="onClick(this)" alt="Jazz Cartier">
+      <img src="file:///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/NOBU.png" style="width:750px" onclick="onClick(this)" alt="NOBU">
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="file:///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/rome-fortune.jpg"  style="width:750px" onclick="onClick(this)" alt="Rome Fortune">
+      <img src="file:///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/JazzCartier.jpg" style="width:750px" onclick="onClick(this)" alt="Jazz Cartier">
+      <img src="file:///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/NOBU.png" style="width:750px" onclick="onClick(this)" alt="NOBU">
+    </div>
+  </div>
+  </div>
+
+  </main>
+
+  <div id="modal01" class="w3-modal w3-black w3-padding-0" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-medium w3-container w3-display-center"></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+ 
+  <main class=container>
+
+      <h4 class="w3-padding-16">Pricing. Please inquire about creative consultations</h4>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+            <li class="w3-padding-16">Beat Leases</li>
+            <li class="w3-padding-16">
+              <h2>$ 200</h2>
+              <span class="w3-opacity">per lease</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-btn w3-white w3-padding-large w3-hover-black">Add to Cart</button>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="w3-half">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+            <li class="w3-padding-16">Beat Sales</li>
+            <li class="w3-padding-16">Unlimited Use, WAV + MP3</li>
+            <li class="w3-padding-16">
+              <h2>$ 2000</h2>
+              <span class="w3-opacity">per beat</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-btn w3-white w3-padding-large w3-hover-black">Add to Cart</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="w3-container w3-padding-32 w3-grey">      
+      <div class="w3-third">
+        <h3>My Music/Social Media</h3>
+        <ul class="w3-ul">
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="http://www.cbronline.com/wp-content/uploads/2016/08/UploadsNewsArticle4949954main.jpg" style="width:50px">
+            <span class="w3-large">My</span><br>
+            <span>Soundcloud</span>
+          </li>
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="https://www.webceo.com/blog/wp-content/uploads/2015/11/twitter.jpg" style="width:50px">
+            <span class="w3-large">My</span><br>
+            <span>Twitter</span>
+          </li> 
+        </ul>
+      </div>
+
+      <div class="w3-third">
+        <h3>POPULAR TAGS</h3>
+        <p>
+          <span class="w3-tag w3-black w3-margin-bottom">Music</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Hip Hop</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Rap</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Austin</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Los Angeles</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">San Antonio</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Beats</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Instrumentals</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Artists</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Shopping</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fashion</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Creative</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="Codeup" title="Codeup" target="_blank" class="w3-hover-opacity">Codeup</a></div>
+
+
+</div>
+
+<script>
+
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
